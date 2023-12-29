@@ -70,3 +70,26 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/TerrainSampleAssets/README.pdf
+Assets/TerrainSampleAssets/Prefabs/Plant_C.prefab.meta
+Assets/TerrainSampleAssets/Textures/Details/Grass_C_MaskMap.tif
+Assets/TerrainSampleAssets/README.pdf.meta
+Assets/TerrainSampleAssets/ThirdPartyNotices.txt
+Assets/TerrainSampleAssets/ThirdPartyNotices.txt.meta
+Assets/TerrainSampleAssets/ShaderGraphs/Subgraphs/RandomFromPosition.shadersubgraph.meta
+Assets/TerrainSampleAssets/Textures/Details/BushDry_Normal.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Errosion01_Heightmap.tif.meta
+Assets/TerrainSampleAssets/Textures/Details/Plant_Thickness.tif
+Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Volcano02_Brush.brush.meta
+Assets/TerrainSampleAssets/TerrainBrushes/
+Assets/TerrainSampleAssets/Textures/Heightmaps/
+Assets/TerrainSampleAssets/Textures/Details/
+Assets/TerrainSampleAssets/ShaderGraphs/
+Assets/TerrainSampleAssets/Models/
+Assets/TerrainSampleAssets/Settings/
+Assets/TerrainSampleAssets/TerrainLayers/
+Assets/TerrainSampleAssets/Models.meta
+Assets/TerrainSampleAssets/TerrainLayers.meta
+Assets/TerrainSampleAssets/TerrainBrushes.meta
+Assets/TerrainSampleAssets/ShaderGraphs.meta
+Assets/TerrainSampleAssets/Settings.meta
