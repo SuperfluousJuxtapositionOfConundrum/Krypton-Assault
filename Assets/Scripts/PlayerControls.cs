@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerControls : MonoBehaviour
-{
+{   
+    [SerializeField] InputAction movement;
+
     void Start()
     {
         
@@ -11,10 +14,10 @@ public class PlayerControls : MonoBehaviour
 
     void Update()
     {
-        float horizontalThrow = Input.GetAxis("Horizontal");
+        /*float horizontalThrow = Input.GetAxis("Horizontal");
         float verticalThrow = Input.GetAxis("Vertical");
 
         Debug.Log(horizontalThrow);
-        Debug.Log(verticalThrow);
+        Debug.Log(verticalThrow);*/
     }
 }

@@ -610,7 +610,6 @@ GameObject:
   - component: {fileID: 1197040315}
   - component: {fileID: 1197040316}
   - component: {fileID: 1197040317}
-  - component: {fileID: 1197040318}
   m_Layer: 0
   m_Name: Player rig
   m_TagString: Untagged
@@ -673,18 +672,6 @@ PlayableDirector:
   m_SceneBindings: []
   m_ExposedReferences:
     m_References: []
---- !u!114 &1197040318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1197040314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99ee5dbcb51c6044ba3553115a0736c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1972534431646214649 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 638081843299677704, guid: 18e9f57ec77f5de40addb5a50135280b, type: 3}
