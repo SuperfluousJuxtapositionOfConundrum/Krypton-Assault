@@ -731,7 +731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8744421894601400184, guid: 18e9f57ec77f5de40addb5a50135280b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744421894601400184, guid: 18e9f57ec77f5de40addb5a50135280b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.data[0].m_Id
@@ -752,6 +752,10 @@ PrefabInstance:
     - target: {fileID: 8744421894601400184, guid: 18e9f57ec77f5de40addb5a50135280b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.data[4].m_Id
       value: 28e264f9-d5a0-4643-9ecf-297acf9c332e
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744421894601400184, guid: 18e9f57ec77f5de40addb5a50135280b, type: 3}
+      propertyPath: movement.m_SingletonActionBindings.Array.data[5].m_Id
+      value: 2260afdc-ecd3-46ed-8f3a-2a5d5e7b6f90
       objectReference: {fileID: 0}
     - target: {fileID: 8744421894601400184, guid: 18e9f57ec77f5de40addb5a50135280b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.data[0].m_Name
@@ -794,6 +798,10 @@ PrefabInstance:
       value: <Keyboard>/d
       objectReference: {fileID: 0}
     - target: {fileID: 8744421894601400184, guid: 18e9f57ec77f5de40addb5a50135280b, type: 3}
+      propertyPath: movement.m_SingletonActionBindings.Array.data[5].m_Path
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744421894601400184, guid: 18e9f57ec77f5de40addb5a50135280b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.data[0].m_Flags
       value: 4
       objectReference: {fileID: 0}
@@ -831,6 +839,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8744421894601400184, guid: 18e9f57ec77f5de40addb5a50135280b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.data[4].m_Action
+      value: Movement
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744421894601400184, guid: 18e9f57ec77f5de40addb5a50135280b, type: 3}
+      propertyPath: movement.m_SingletonActionBindings.Array.data[5].m_Action
       value: Movement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
