@@ -14,10 +14,15 @@ public class PlayerControls : MonoBehaviour
 
     void Update()
     {
-        /*float horizontalThrow = Input.GetAxis("Horizontal");
+        float horizontalThrow = movement.ReadValue<Vector2>().x;
+        float verticalThrow = movement.ReadValue<Vector2>().y;
+
+        /*
+        float horizontalThrow = Input.GetAxis("Horizontal");
         float verticalThrow = Input.GetAxis("Vertical");
+        */
 
         Debug.Log(horizontalThrow);
-        Debug.Log(verticalThrow);*/
+        Debug.Log(verticalThrow);
     }
 }
