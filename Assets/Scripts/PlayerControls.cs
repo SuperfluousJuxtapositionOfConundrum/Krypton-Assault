@@ -12,17 +12,22 @@ public class PlayerControls : MonoBehaviour
         
     }
 
+    void OnEnable()
+    {
+        movement.Enable();
+    }
+
+    void OnDisable()
+    {
+        movement.Disable();
+    }
+
     void Update()
     {
-        float horizontalThrow = movement.ReadValue<Vector2>().x;
-        float verticalThrow = movement.ReadValue<Vector2>().y;
+        float xThrow = movement.ReadValue<Vector2>().x;
+        float yThrow = movement.ReadValue<Vector2>().y;
 
-        /*
-        float horizontalThrow = Input.GetAxis("Horizontal");
-        float verticalThrow = Input.GetAxis("Vertical");
-        */
-
-        Debug.Log(horizontalThrow);
-        Debug.Log(verticalThrow);
+        Debug.Log(xThrow);
+        Debug.Log(yThrow);
     }
 }

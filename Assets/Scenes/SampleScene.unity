@@ -731,7 +731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8744421894601400184, guid: 18e9f57ec77f5de40addb5a50135280b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.size
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8744421894601400184, guid: 18e9f57ec77f5de40addb5a50135280b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.data[0].m_Id
